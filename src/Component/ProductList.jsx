@@ -32,7 +32,7 @@ const ProductList = () => {
   const handleCallback = (childData) => {
     setQuery(childData);
   };
-
+  
   const handleSortCallback = (childData) => {
     setSort({ sort: true, ...childData });
     console.log("sort - ", sort);
